@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Electricity Market</title>
+
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/dynatable/jquery.dynatable.css">
+  <link rel="stylesheet" href="status.css">
+</head>
+
+<body>
+  <div>
+    <h3>Offers</h3>
+    <table id="offers" class="table table-bordered">
+      <thead>
+        <th>ID</th>
+        <th>Seller</th>
+        <th>Seller smart meter</th>
+        <th>Buyer</th>
+        <th>Buyer smart meter</th>
+        <th>Price</th>
+        <th>Electricity amount</th>
+        <th>Start time</th>
+        <th>End time</th>
+        <th>State</th>
+        <th>Recipient</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <h3>Balances</h3>
+    <table id="balances" class="table table-bordered">
+      <thead>
+        <th>Identity</th>
+        <th>Account</th>
+        <th>Balance</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/dynatable/jquery.dynatable.js"></script>
+  <script src="bower_components/web3/dist/web3.min.js"></script>
+  <script src="bower_components/moment/min/moment.min.js"></script>
+  <script src="market-address-and-abi.js"></script>
+  <script src="status.js"></script>
+</body>
+</html>

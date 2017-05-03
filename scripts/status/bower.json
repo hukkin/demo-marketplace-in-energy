@@ -1,0 +1,25 @@
+{
+  "name": "status",
+  "main": "status.js",
+  "authors": [
+    "Taneli Hukkinen <taneli.hukkinen@aalto.fi>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "dynatable": "^0.3.1",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "web3": "^0.18.2"
+  }
+}
