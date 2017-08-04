@@ -1,5 +1,19 @@
 ## A guide to demoing the contract
 
+### Install dependencies
+
+Before the first run, dependencies need to be installed for the test scripts and the status viewer.
+
+```shell
+cd scripts/
+npm install
+```
+
+```shell
+cd scripts/status
+bower install
+```
+
 ### Run a deterministic TestRPC session
 
 ```shell
